@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.winter {
+    background-image: url('image/WINTER.webp');
+}
+.spring {
+    background-image: url('image/SPRING.avif');
+}
+.summer {
+    background-image: url('image/summer.jpeg');
+}
+.autumn {
+    background-image: url('image/autumn.jpg');
+}
+.seasons {
+    padding-top: 250px;
+    margin: 20px;
+}
+.months {
+    display: none;
+    margin-top: 20px;
+}
+button {
+    padding: 70px;
+    margin: 5px;
+    font-size: 29px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.birthday {
+    position: relative;
+    color: white;
+}
+.birthday::after {
+    content: "🎁 24";
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: yellow;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 14px;
+}
